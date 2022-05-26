@@ -29,7 +29,7 @@ router.get("/notes", (req, res) => {
 });
 
 //DELETE
-app.delete("/notes/:id", function(req, res) {
+router.delete("/notes/:id", function(req, res) {
     notes.splice(req.params.id, 1);
     updateDb();
     console.log("Note "+req.params.id+" had been deleted.");
