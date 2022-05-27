@@ -6,7 +6,7 @@ const path = require('path');
 //ID - UNIQUE VALUES
 const { v4: uuidv4 } = require("uuid");
 const notes = require('../../db/db');
-const { createNewNote, findById, deleteNote } = require('../../notes');
+const { createNewNote, findById, deleteNote } = require('../../public/assets/js/notes');
 
 //GET SAVED NOTES in db.json
 router.get('/notes', (req, res) => {
