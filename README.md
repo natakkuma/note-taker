@@ -1,4 +1,4 @@
-<h1>note Takerr</h1>
+<h1>Note Taker</h1>
 
 <h2>Purpose</h2>
 To create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
@@ -32,7 +32,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 </ul>
   
 <h2>Screenshot</h2>
-![image](https://user-images.githubusercontent.com/95733427/170626393-947f17b1-35f6-4834-acb8-cc8c7e1aedb0.png)
+<img src="https://user-images.githubusercontent.com/95733427/170626393-947f17b1-35f6-4834-acb8-cc8c7e1aedb0.png">
 
 <h2>Contribution</h2>
 Made with ❤️ by Natakkuma
